@@ -1,0 +1,17 @@
+driver:
+  name: terraform
+
+platforms:
+  - name: amazonlinux2
+    driver_config:
+      region: us-east-1
+      ami: amzn2-ami-hvm-*x86_64-gp2
+
+provisioner:
+  name: terraform
+  root_module_directory: ~/environment/SDN_Terraform
+
+suites:
+  - name: default
+    verifier:
+      name: terraform

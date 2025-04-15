@@ -1,0 +1,24 @@
+I, [2025-04-15T02:21:14.604995 #18510]  INFO -- default-amazonlinux2: -----> Creating <default-amazonlinux2>...
+W, [2025-04-15T02:21:14.605444 #18510]  WARN -- default-amazonlinux2: Reading the Terraform client version...
+I, [2025-04-15T02:21:14.654064 #18510]  INFO -- default-amazonlinux2: Terraform v1.10.4
+I, [2025-04-15T02:21:14.655025 #18510]  INFO -- default-amazonlinux2: on linux_amd64
+I, [2025-04-15T02:21:14.655473 #18510]  INFO -- default-amazonlinux2: 
+I, [2025-04-15T02:21:14.655746 #18510]  INFO -- default-amazonlinux2: Your version of Terraform is out of date! The latest version
+I, [2025-04-15T02:21:14.655773 #18510]  INFO -- default-amazonlinux2: is 1.11.3. You can update by downloading from https://www.terraform.io/downloads.html
+W, [2025-04-15T02:21:14.657636 #18510]  WARN -- default-amazonlinux2: Finished reading the Terraform client version.
+W, [2025-04-15T02:21:14.657750 #18510]  WARN -- default-amazonlinux2: Verifying the Terraform client version is in the supported interval of >= 0.11.4, < 2.0.0...
+W, [2025-04-15T02:21:14.657916 #18510]  WARN -- default-amazonlinux2: Finished verifying the Terraform client version.
+W, [2025-04-15T02:21:14.658005 #18510]  WARN -- default-amazonlinux2: Initializing the Terraform working directory...
+I, [2025-04-15T02:21:14.702666 #18510]  INFO -- default-amazonlinux2: [0m[1mTerraform initialized in an empty directory![0m
+I, [2025-04-15T02:21:14.703722 #18510]  INFO -- default-amazonlinux2: 
+I, [2025-04-15T02:21:14.704208 #18510]  INFO -- default-amazonlinux2: The directory has no Terraform configuration files. You may begin working
+I, [2025-04-15T02:21:14.705544 #18510]  INFO -- default-amazonlinux2: with Terraform immediately by creating Terraform configuration files.[0m
+W, [2025-04-15T02:21:14.705974 #18510]  WARN -- default-amazonlinux2: Finished initializing the Terraform working directory.
+W, [2025-04-15T02:21:14.706065 #18510]  WARN -- default-amazonlinux2: Creating the kitchen-terraform-default-amazonlinux2 Terraform workspace...
+I, [2025-04-15T02:21:14.748228 #18510]  INFO -- default-amazonlinux2: [0m[32m[1mCreated and switched to workspace "kitchen-terraform-default-amazonlinux2"![0m[32m
+I, [2025-04-15T02:21:14.748297 #18510]  INFO -- default-amazonlinux2: 
+I, [2025-04-15T02:21:14.748310 #18510]  INFO -- default-amazonlinux2: You're now on a new, empty workspace. Workspaces isolate their state,
+I, [2025-04-15T02:21:14.748325 #18510]  INFO -- default-amazonlinux2: so if you run "terraform plan" Terraform will not see any existing state
+I, [2025-04-15T02:21:14.748336 #18510]  INFO -- default-amazonlinux2: for this configuration.[0m
+W, [2025-04-15T02:21:14.750981 #18510]  WARN -- default-amazonlinux2: Finished creating the kitchen-terraform-default-amazonlinux2 Terraform workspace.
+I, [2025-04-15T02:21:14.751756 #18510]  INFO -- default-amazonlinux2: Finished creating <default-amazonlinux2> (0m0.15s).

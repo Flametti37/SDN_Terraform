@@ -1,0 +1,9 @@
+---
+last_action: verify
+last_error:
+kitchen_terraform_outputs:
+  vpc_id:
+    sensitive: false
+    type: string
+    value: vpc-0417c20f5f59883ac
+kitchen_terraform_variables: {}

@@ -94,7 +94,7 @@ resource "aws_instance" "EC2-VM1" {
   subnet_id         = aws_subnet.SN-public-1.id
   security_groups   = [aws_security_group.SG-web-servers.id]
   availability_zone = "us-east-1a"
-  key_name          = "#####"
+  key_name          = "pemSem5"
   tags              = { Name = "EC2-VM1" }
 }
 
@@ -104,7 +104,7 @@ resource "aws_instance" "EC2-VM2" {
   subnet_id         = aws_subnet.SN-public-2.id
   security_groups   = [aws_security_group.SG-web-servers.id]
   availability_zone = "us-east-1a"
-  key_name          = "#####"
+  key_name          = "pemSem5"
   tags              = { Name = "EC2-VM2" }
 }
 
